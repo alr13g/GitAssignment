@@ -49,7 +49,7 @@ public class AncientMagicStaff extends BasicWeapon implements Weapon {
         Collections.reverse(ancient);
 
         int finalVal = ancient.get(1) + ancient.get(3) + ancient.get(7);
-        
+
         return finalVal;
 
     }
